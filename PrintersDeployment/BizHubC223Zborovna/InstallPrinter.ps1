@@ -19,7 +19,7 @@ exit $lastexitcode
 $PrinterDriver = 'KOBxxK__01.inf' 
 #IP adresa alebo FQDN tlaciarne
 $PrinterPortAddress = '10.50.10.10'
-$PrinterPortName = 'IP_' + $PrinterPort
+$PrinterPortName = 'IP_' + $PrinterPortAddress 
 $PrintDriverName = "KONICA MINOLTA Universal V4 PCL"
 $PrinterName = "KM Bizhub C224 (Zborovňa)"
 
